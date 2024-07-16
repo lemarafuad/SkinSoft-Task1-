@@ -14,8 +14,55 @@
     background-color: #f0e6ff;
   }
   #jana1{
-    background-color: #e6ffe6;
+    .btn {
+      padding: 10px 60px;
+      font-size: 14px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s, box-shadow 0.3s;
   }
+  .btn-primary {
+      background-color: #8FA03A; 
+  }
+
+.form-control {
+  margin-bottom: 1.5rem; 
+  width:400px;
+  flex: 1;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #FEFEFE;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 20px rgb(184, 182, 182); 
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.comment-input {
+  height: 200px; 
+  padding: 1rem; 
+  display: flex;
+}
+
+.form-control::placeholder {
+  color:black;
+}
+
+    background-color:white;
+  }
+
   #jana2{
-    background-color: #fff0e6;
+    .center-text p {
+      margin-bottom: 0; 
+  }
+  .list-inline-item p {
+      display: inline; 
+      margin: 0; 
+  }
+  .right-align {
+      justify-content: flex-end; 
+  }
+  .center-text {
+      text-align: center;
+  }
+    background-color: #8FA03A;
   }
