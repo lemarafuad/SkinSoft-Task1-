@@ -2,17 +2,16 @@
   #farah{
     padding-top: 50px;
     background-color: #f8f8f8;
-    height: 200px;
     text-align: center;
-    
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Stack elements vertically */
+    flex-direction: column;
 
   }
   #title{
     font-size: 20px;
+    color: #414141;
   }
   #search{
     height: 30px;
@@ -20,6 +19,7 @@
     width: 500px;
     cursor: pointer;
     padding: 10px 20px;
+    margin-bottom: 50px;
     background: #fff;
     border-radius: 10px;
     align-items: center;
@@ -41,11 +41,10 @@
     color: #9a9a9a;
   }
 
-  #buttons{
-    margin-top: 50px;
-   
+   #buttons{
+    margin-top: 10px;
   }
-  
+   
   #buttons button{
     border-radius: 10px;
     padding-left: 20px;
@@ -58,8 +57,7 @@
   .edge-buttons{
     background-color: #8c9a3a;
     border-color: #8c9a3a;
-    color: #fff;
-   
+    color: #fff; 
   }
   .center-button{
     background-color:#f8f8f8;
