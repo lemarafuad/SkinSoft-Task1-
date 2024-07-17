@@ -18,39 +18,41 @@
 </head>
 <body>
     <div id="lemara1">
-        <nav>
-            <div class="logo"><img src="designwork/SkinSoft.png" alt="SkinSoft Logo"></div>
-            <ul>
-                <li><a href="#">Learn</a></li>
-                <li><a href="#">Explore</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <div class="information">
-                <a href="#" class="cart-icon"><img src="designwork/icons8-cart-50.png" alt="Cart Logo"></a>
-                <span>Cart</span>
-                <a href="#" class="lan-icon"><img src="designwork/icons8-earth-50.png" alt="Lan Logo"></a>
-                <span>EN</span>
-                <div class="login-status">
-                    <select>
-                      <option>Logged in as Samer</option>
-                    </select>
-                </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg">
+        <div class="logo"><img src="designwork/SkinSoft.png" alt="SkinSoft Logo"></div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li><a href="#">Learn</a></li>  
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" class="cart-icon"><img src="designwork/icons8-cart-50.png" alt="Cart Logo">Cart</a></li>
+            <li><a href="#" class="lan-icon"><img src="designwork/icons8-earth-50.png" alt="Lan Logo">EN</a></li>
+            <li><div class="login-status">
+              <select>
+                <option>Logged in as Samer</option>
+              </select>
+            </div></li>
+          </ul>
+          
+        </div>
+      </nav>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="designwork/BANNER1.PNG" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="designwork/BANNER2.PNG" class="d-block w-100" alt="...">
+                <img src="designwork/BANNER1.PNG" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="designwork/BANNER3.PNG" class="d-block w-100" alt="...">
+                <img src="designwork/BANNER1.PNG" class="d-block w-100" alt="...">
               </div>
             </div>
           </div>
-        <!-- <p>lemara1 section</p> -->
     </div>
     <div id="farah">
         <div id="title">
@@ -70,8 +72,7 @@
         </div>
         <div id="end">
             <div class="end-section left">Recent Courses</div>
-            <div class="end-section center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula nunc in neque sollicitudin,<br>
-                ac cursus tellus semper. Morbi posuere elit mollis erat gravida rhoncus.</div>
+            <div class="end-section center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula nunc in neque sollicitudin,ac cursus tellus semper. Morbi posuere elit mollis erat gravida rhoncus.</div>
             <div class="end-section right">
                 <button class="end-button">View all courese</button>
             </div>
@@ -85,71 +86,79 @@
     </div>
 
     <div id="lemara2">
-        <div class="success-stories-container"> 
-          <h1>Softina Success Stories</h1>
-            <div class="success-stories">
+      <div class="success-stories-container">
+        <h1>Softina Success Stories</h1>
+        <div class="success-stories">
+          <div class="row"> 
+            <div class="col-md-6 col-sm-12 mb-4">
               <div class="row">
-                <div class="col">
-                  <div class="row">
-                    <div class="col">
-                      <img src="designwork/person1.png" alt="Success Story Image">
-                    </div>
-                    <div class="col">
-                      <h3>Success Story Title</h3>
-                      <p>Lorem ipsum dolor sit amet, consec-tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas ac-cumsan lacus vel facilisis.    <a href="" class="read-more">read more</a></p>
-                    </div>
-                  </div>
+                <div class="col-4">
+                  <img src="designwork/person1.png" alt="Success Story Image" class="img-fluid">
                 </div>
-                <div class="col">
-                <div class="row">
-                    <div class="col">
-                      <img src="designwork/person2.png" alt="Success Story Image">
-                    </div>
-                    <div class="col">
-                      <h3>Success Story Title</h3>
-                      <p>Lorem ipsum dolor sit amet, consec-tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas ac-cumsan lacus vel facilisis.   <a href="" class="read-more">read more</a></p>
-                    </div>
-                    </div>
+                <div class="col-8">
+                  <h3>Success Story Title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. <a href="" class="read-more">read more</a></p>
                 </div>
-                </div>
+              </div>
             </div>
+            <div class="col-md-6 col-sm-12 mb-4">
+              <div class="row">
+                <div class="col-4">
+                  <img src="designwork/person2.png" alt="Success Story Image" class="img-fluid">
+                </div>
+                <div class="col-8">
+                  <h3>Success Story Title</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. <a href="" class="read-more">read more</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+    
 
     <div id="jana1">
-        <div class="row justify-content-center"> 
+      <div class="container-lg"> 
+       <div class="row justify-content-center"> 
             <div class="col-md-5 col-lg-5 col-xl-5 mx-auto ">
-                <h4>Get in touch</h4>
-                <p> Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Quis ipsum suspendisse ultrices gravida.
-                    Risus com- modo viverra maecenas accumsan lacus vel facilisis.</p>
+            <h4>Get in touch</h4>
+            <p > Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Quis ipsum suspendisse ultrices gravida.
+                Risus com- modo viverra maecenas accumsan lacus vel facilisis.</p>
 
-                <h4>Address</h4>
-                <h8>Some Strabe </h8><br>
-                <h8>Munchen,11230</h8><br>
-                <h8>Germany</h8><br><br>
+            <h7><b>Address</b></h7>
+            <br>
+            <h8>Some Strabe </h8><br>
+            <h8>Munchen,11230</h8><br>
+            <h8>Germany</h8><br><br>
 
-                <h4>Phone</h4>
-                <h8>800-123-4567,</h8><br>
-                <h8>Fax:718-724-3312</h8>
+            <h7><b>Phone</b></h7><br>
+            <h8>800-123-4567,</h8><br>
+            <h8>Fax:718-724-3312</h8>
             </div>
 
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <input type="text" class="form-control"  aria-describedby="inputGroup-sizing-default" placeholder="Enter your name">
-                    <input type="text" class="form-control"  aria-describedby="inputGroup-sizing-default" placeholder="Your email address">
-                    <textarea type="text" class="form-control comment-input"  aria-describedby="inputGroup-sizing-default" placeholder="Comments"></textarea> 
-                <button type="button" class="btn btn-primary"> Send </button>
-            
+              <div class="input-group mb-3">
+                <input type="text" class="form-control"  aria-describedby="basic-addon1"  placeholder="Enter your name">
+              </div>
+              <div class="input-group mb-3"> 
+                <input type="text" class="form-control" aria-describedby="basic-addon1" placeholder="Your email address">
+              </div>
+              <div class="input-group mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Comments"></textarea>
+              </div>
+              <button type="button" class="btn btn-primary"> Send </button>
+              
             </div>
             <footer>  
-            <img src="/designwork/company.jpg" width="1430 px">
-        </footer>
+              <img src="/designwork/company.jpg" class="img-fluid" alt="Responsive image">
+           </footer>
         </div>
-
+      </div>
     </div>
-
     <div id="jana2">
         <footer  class="text-white pt-4 pb-3">
             <div class="container text-center text-md-start mt-5">
@@ -173,8 +182,8 @@
                   <h8>Organismes de formations</h8><br>
                   <h8>Entreprice</h8>
                 </div>
-                <div class="col">   
-                    <img  class="image" src="/designwork/logofooter.jpg">
+                <div class="col col-md-4 col-sm-12 text-center mb-3">   
+                    <img src="/designwork/logofooter.jpg" class="img-fluid" alt="Responsive image">
                     <ul>
                         <li class="list-inline-item">
                         <a > <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
@@ -211,5 +220,9 @@
         </footer>
     </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
