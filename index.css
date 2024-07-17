@@ -1,114 +1,140 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
 
+#farah {
+  padding-top: 50px;
+  background-color: #f8f8f8;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
 
-  #farah {
-    padding-top: 50px;
-    background-color: #f8f8f8;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  #title{
-    font-size: 20px;
-    color: #414141;
-  }
-  #search{
-    height: 30px;
-    display: flex;
-    width: 500px;
-    cursor: pointer;
-    padding: 10px 20px;
-    margin-bottom: 40px;
-    background: #fff;
-    border-radius: 10px;
-    align-items: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.116);
-  }
-  #search input{
-    width:500px ;
-    border: none;
-    outline: none;
-    font-size: 15px;
-  }
-  #search input:hover{
-    width:500px ;
-    border: none;
-    outline: none;
-  }
+#title {
+  font-size: 20px;
+  color: #414141;
+}
 
-  #search a .fas{
-    color: #9a9a9a;
-  }
+#search {
+  display: flex;
+  width: 90%;
+  max-width: 500px;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  background: #fff;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.116);
+}
 
-   #buttons{
-    width: 100%;
-    padding-top: 20px;
-    border-top: solid 0.2rem #ececeae7;
-  }
-   
-  #buttons button{
-    border-radius: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin:5px;
-    font-size: 14px;
-    height: 30px;
-    border-style: solid;
-  }
-  .edge-buttons{
-    background-color: #8c9a3a;
-    border-color: #8c9a3a;
-    color: #fff; 
-  }
-  .center-button{
-    background-color:#f8f8f8;
-    border-color: #8c9a3a;
-    color: #414141;
-  }
+#search input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
 
+#search a .fas {
+  color: #9a9a9a;
+}
+
+#buttons {
+  width: 100%;
+  max-width: 500px;
+  padding-top: 20px;
+  border-top: solid 0.2rem #ececeae7;
+  display: flex;
+  flex-direction: row; /* Default to row */
+  justify-content: center;
+  gap: 10px;
+}
+
+#buttons button {
+  max-width: 500px;
+  border-radius: 10px;
+  padding: 5px 20px;
+  font-size: 10px;
+  height: 30px;
+  border-style: solid;
+   /* flex: 1;  */
+}
+
+.edge-buttons {
+  background-color: #8c9a3a;
+  border-color: #8c9a3a;
+  color: #fff;
+}
+
+.center-button {
+  background-color: #f8f8f8;
+  border-color: #8c9a3a;
+  color: #414141;
+}
+
+/* Responsive Styles */
+@media (max-width: 500px) {
+  #buttons {
+      flex-direction: column; /* Change to column on small screens */
+      align-items: center; /* Center buttons */
+  }
+}
+
+#end {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  max-width: 1000px;
+}
+
+@media (min-width: 768px) {
   #end {
-    display: flex; 
-    justify-content: space-between; 
-    width: 100%; 
-    margin-top: 20px;
-    margin-bottom: 10px; 
+      grid-template-columns: 1fr 2fr 1fr;
+  }
+
 }
 
 .end-section {
-    padding: 10px;
-    background-color: #f8f8f8; 
-    
+  padding: 10px;
+  background-color: #f8f8f8;
 }
 
 .left {
-    flex: 1; 
-    border-right: solid 0.2rem #ececea;  
-    text-align: right;
-    font-weight: bold;
-    padding-right: 20px;
-    align-content: center;
-    font-size: 20px;
-    height: fit-content;
+  /* text-align: right; */
+  font-weight: bold;
+  padding-right: 20px;
+  align-content: center;
+  font-size: 20px;
+  height: fit-content;
 }
 
 .center {
-    flex: 2; 
-    font-size: 13px;
-    text-align: left;
+  font-size: 13px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
 }
 
 .right {
-    flex: 1; 
+  text-align: center;
 }
-.right button{
-    background-color:#f8f8f8;
-    border-color: #8c9a3a;
-    color: #414141;
-    border-radius: 20px;
-    font-size: 14px;
-    height: 25px;
-    width: 150px;
-    border-style:  solid;
-    align-content: center;
+
+.right button {
+  background-color: #f8f8f8;
+  border-color: #8c9a3a;
+  color: #414141;
+  border-radius: 20px;
+  font-size: 14px;
+  height: 25px;
+  width: 150px;
+  border-style: solid;
+  align-content: center;
 }
