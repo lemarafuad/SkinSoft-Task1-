@@ -346,3 +346,208 @@ body {
     font-size: 15px;
   }
 }
+
+.btn,
+.btn-primary {
+  background-color: #8c9a3a !important;
+  border-color: #8c9a3a !important;
+  border-radius: 100px !important;
+  font-weight: 600 !important;
+}
+
+.course {
+  width: 14rem;
+}
+
+@media (min-width: 800px) {
+  .course {
+    width: 18rem;
+  }
+}
+
+#salah {
+  margin-bottom: -5rem;
+  margin-top: 4rem;
+
+  .instructor img {
+    width: 3rem;
+  }
+
+  .free::after {
+    position: absolute;
+    content: "Free Subscription";
+    padding: 2px 4px;
+    border-radius: 100px;
+    background-color: #d4a21d;
+    color: black;
+    font-size: 0.8rem;
+    top: 9.5rem;
+    left: 1rem;
+  }
+
+  .price {
+    margin-bottom: -2rem;
+    margin-right: 0.5rem;
+    font-size: 1.3rem;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .free .btn,
+  .free .btn-primary {
+    background-color: transparent !important;
+    color: black;
+  }
+
+  [class*="-icon"] {
+    filter: invert(1);
+  }
+
+  .carousel-control-next {
+    transform: translateX(8rem);
+  }
+
+  .carousel-control-prev {
+    transform: translateX(-8rem);
+  }
+
+  .original-price {
+    font-size: 1.1rem;
+  }
+  .free .price {
+    visibility: hidden;
+  }
+  .carousel-item {
+    padding-bottom: 4rem;
+  }
+  .course-btn {
+    font-size: 14px;
+    padding: 8px 32px;
+    letter-spacing: 1.3px;
+  }
+  .course {
+    font-size: 16px;
+    background-color: #f0efed;
+    border-color: #f0efed;
+    border-radius: 20px;
+  }
+
+  .course-image {
+    border-radius: 20px 20px 0 0;
+  }
+
+  .course-title {
+    font-weight: 700;
+  }
+  .instructor {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .instructor p {
+    margin-bottom: 0;
+  }
+
+  .course-body {
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 768px) {
+  #salah {
+    margin-bottom: -10rem;
+  }
+}
+.section-3-container {
+  /* transform: translateY(-7rem); */
+  z-index: -1000;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  z-index: -1000;
+  background-image: url("./designwork/soap_flavours.jpg");
+  background-size: contain;
+  width: 100%;
+  height: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.section-3-1 {
+  padding: 20.5vw 0 0 5.88vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  width: 100%;
+  height: 72vw;
+}
+
+.main-view > .main-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3.49vw;
+  width: 28vw;
+}
+
+.main-view {
+  display: flex;
+  flex-direction: column;
+  width: 39.32vw;
+  min-height: 100px;
+  padding: 0;
+}
+
+.view {
+  display: flex;
+  flex-direction: column;
+  width: 22.7vw;
+  min-height: 100px;
+  padding: 0;
+}
+
+.view-item {
+  display: flex;
+  gap: 5px;
+  font-size: 1.46vw;
+}
+
+.main-view {
+  gap: 10px;
+  margin-right: 100px;
+}
+
+.view button {
+  background-color: #6d6d6d;
+  color: white;
+  font-size: 1.3vw;
+  border-radius: 1.04vw;
+  width: 10.83vw;
+  height: 2.76vw;
+  border-color: transparent;
+  z-index: 100;
+  margin-top: 7vw;
+  margin-left: 7vw;
+}
+
+.view button:hover {
+  background-color: black;
+}
+
+.section-3-2 {
+  margin: 0;
+  padding: 0;
+  padding-top: 4vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: auto;
+  width: 100%;
+  /* z-index: -900; */
+  background-image: url("designwork/3.2-background.png");
+  background-size: cover;
+  width: 100%;
+  height: 29.78vw;
+}
